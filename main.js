@@ -9,76 +9,100 @@ var seafood = document.getElementsByClassName(".seafood");
 var breakfast = document.getElementsByClassName(".breakfast");
 var steak = document.getElementsByClassName(".steak");
 var tacos = document.getElementsByClassName(".tacos");
-// all the var that are grabbing the food inputs in html
-var btn = $('submit');
-btn.on("click",doSomething);
-function doSomething(){
-  button.toggleClass('blue');
-  steak.toggleClass
-}
+// all the var that are grabbing
+//
+//
+// function myFood(){
+// if (pasta.checked == true) {
+//   pasta.addClass('show')
+//   pasta.removeClass('hide')
+//    } else {
+//      pasta.classList.add('hide')
+//      paste.classList.remove('show')
+// if (pizza.checked == true) {
+//   pizza.addClass('show')
+//   pizza.removeClass('hide')
+//    } else {
+//      pizza.addClass('hide')
+//      pizza.removeClass('show')}
+//
+//   if (soups.checked == true) {
+//     soups.addClass('show')
+//     soups.removeClass('hide')
+//      } else {
+//        soups.addClass('hide')
+//        soups.removeClass('show')}
+//
+//
+//   if (salads.checked == true) {
+//     salads.addClass('show')
+//     salads.removeClass('hide')
+//      } else {
+//        salads.addClass('hide')
+//        salads.removeClass('show')}
+//
+//     if (burgers.checked == true) {
+//       burgers.addClass('show')
+//       burgers.removeClass('hide')
+//        } else {
+//          burgers.addClass('hide')
+//          burgers.removeClass('show')}
+//
+// if (sandwhiches.checked == true) {
+//   sandwhiches.addClass('show')
+//   sandwhiches.removeClass('hide')
+//    } else {
+//      sandwhiches.addClass('hide')
+//      sandwhiches.removeClass('show')}
+//
+// if (ice-cream.checked == true) {
+//   ice-cream.addClass('show')
+//   ice-cream.removeClass('hide')
+//    } else {
+//      ice-cream.addClass('hide')
+//      ice-cream.removeClass('show')}
+//
+//   if (seafood.checked == true) {
+//     seafood.addClass('show')
+//     seafood.removeClass('hide')
+//      } else {
+//        seafood.addClass('hide')
+//        seafood.removeClass('show')}
+//
+// if (breakfast.checked == true) {
+//   breakfast.addClass('show')
+//   breakfast.removeClass('hide')
+//    } else {
+//      breakfast.addClass('hide')
+//      breakfast.removeClass('show')}
+//
+// if (steak.checked == true) {
+//   steak.addClass('show')
+//   steak.removeClass('hide')
+//    } else {
+//      steak.addClass('hide')
+//      steak.removeClass('show')}
+//
+// if (tacos.checked == true) {
+//   tacos.addClass('show')
+//   tacos.removeClass('hide')
+//    } else {
+//      tacos.addClass('hide')
+//      tacos.removeClass('show')}
+// }
 
+function myFunction(){
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementByClassName("soups2");
 
-
-function myFood(){
-if (pasta.checked == true) {
-  pasta.style.visibility = "visible";
-   } else {
-     pasta.style.visibility = "hidden";}
-if (pizza.checked == true) {
-   pizza.style.visibility = "visible";
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
   } else {
-  pizza.style.visibility = "hidden";}
-
-  if (soups.checked == true) {
-  soups.style.visibility = "visible";
-   } else {
-    soups.style.visibility = "hidden";}
-
-
-  if (salads.checked == true) {
-   salads.style.visibility = "visible";
-      } else {
-    salads.style.visibility = "hidden";}
-
-    if (burgers.checked == true) {
-    burgers.style.visibility = "visible";
-         } else {
-        burgers.style.visibility = "hidden";}
-
-
-if (sandwhiches.checked == true) {
-   sandwhiches.style.visibility = "visible";
-    } else {
-    sandwhiches.style.visibility = "hidden";}
-
-if (ice-cream.checked == true) {
-   ice-cream.style.visibility = "visible";
-  } else {
-  ice-cream.style.visibility = "hidden";}
-
-  if (seafood.checked == true) {
-     seafood.style.visibility = "visible";
-      } else {
-     seafood.style.visibility = "hidden";}
-
-if (breakfast.checked == true) {
-    breakfast.style.visibility = "visible";
-    } else {
-    breakfast.style.visibility = "hidden";}
-
-if (steak.checked == true) {
-   steak.style.visibility = "visible";
-   } else {
-   steak.style.visibility = "hidden";}
-
-if (tacos.checked == true) {
-   tacos.style.visibility = "visible";
-   } else {
-   tacos.style.visibility = "hidden";}
+    text.style.display = "none";
+  }
 }
-
-
-
 
 var slideIndex = 1;
 showSlides(slideIndex);

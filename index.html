@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster&display=swap" rel="stylesheet">
   </head>
   <body>
-<h1>Manger</h1>
+<h1 class="title"> Manger</h1>
 <h3>Choose your cravings</h3>
 
 <section class= "food">
@@ -18,23 +18,23 @@
 <form action="/action_page.php" method="get">
 
 <div class="row1">
-  <input  type="checkbox" name="italian"> Pasta<br>
-  <input type="checkbox" name="italian"  checked="checked"> Pizza<br>
-    <input type="checkbox" name="french"  checked="checked"> Soups<br>
+  <input class="pasta" type="checkbox" name="italian"> Pasta<br>
+  <input class="pizza" type="checkbox" name="italian"  checked="checked"> Pizza<br>
+    <input class="soups" type="checkbox" name="french"  checked="checked"> Soups<br>
 </div>
 
 
 
 <div class="row2">
-  <input type="checkbox" name="American"  checked="checked"> Salads<br>
-  <input type="checkbox" name="American"  checked="checked"> burgers<br>
-  <input type="checkbox" name="American"  checked="checked"> Sandwhiches<br>
+  <input class="salads" type="checkbox" name="American"  checked="checked"> Salads<br>
+  <input class="burgers" type="checkbox" name="American"  checked="checked"> burgers<br>
+  <input class="sandwhiches" type="checkbox" name="American"  checked="checked"> Sandwhiches<br>
 </div>
 
 
 <div class="row3">
 
-<div class="ice crem">
+<div class="ice-crem">
   <input type="checkbox" name="American"  checked="checked"> Ice Cream<br>
   </div>
   <div class="seafood">
@@ -47,16 +47,12 @@
 
 
 <div class="row4">
-    <input type="checkbox" name="American"  checked="checked"> Steak<br>
-  <input type="checkbox" name="Mexican"  checked="checked"> Tacos<br>
+    <input class="steak" type="checkbox" name="American"  checked="checked"> Steak<br>
+  <input class="tacos" type="checkbox" name="Mexican"  checked="checked"> Tacos<br>
   </div>
   </section>
-  <input type="submit" value="Submit">
 
-
-
-
-
+<input class="btn" type="submit">
 
 
   <!-- Slideshow container -->
@@ -97,16 +93,73 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
+<section class="results">
 
 
+<div class="burgers2">
+  <a href = "https://www.illegalburger.com/">
+  <h1>Illegal burgers</h1>
+</div>
+
+<div class="pizza2">
+  <a href = "https://pizzarepublica.com/">
+  <h1>Pizza Republica</h1>
+
+</div>
+
+<div class="soups2">
+  <a href = "https://www.cholon.com/denver/">
+  <h1>ChoLon</h1>
+</div>
+
+<div class="pasta2">
+  <a href = "https://www.olivegarden.com/locations/location-search?redirectToMenu=true&cmpid=br:og_ag:360i_ch:ppc_pl:ad_ca:871204269_adg:42791136214_kw:olive+garden&redirectToTarget=true">
+  <h1>Olive Garden</h1>
+
+</div>
 
 
+<div class="IceCream2">
+    <a href = "https://www.coldstonecreamery.com/">
+  <h1>Cold Stone</h1>
 
+</div>
 
+<div class="salads2">
+    <a href = "https://www.madgreens.com/">
+  <h1>MAD Greens</h1>
 
+</div>
+
+<div class="sandwhiches2">
+    <a href = "https://eatleven.com/?utm_source=google&utm_medium=GMB&utm_campaign=Local">
+  <h1>Leven Deli Co.</h1>
+</div>
+
+<div class="seafood2">
+    <a href = "https://www.illegalburger.com/">
+  <h1>Revel Social</h1>
+
+</div>
+<div class="breakfest2">
+  <a href = "https://www.oliveandfincheatery.com/">
+  <h1>Olive & Finch</h1>
+
+</div>
+<div class="steak2">
+  <a href = "https://www.mortons.com/">
+  <h1>Morton's Steakhouse</h1>
+
+</div>
+<div class="Taco2">
+    <a href = "https://www.illegalpetes.com/location/illegal-petes-denver-lower-downtown/">
+  <h1>Illegal Pete's LoDo</h1>
+</div>
+</section>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="/Users/apple/Desktop/KWK/Food/main.js"></script>
+  <script src="data.js"></script>
+<script src="main.js"></script>
   </body>
 </html>
